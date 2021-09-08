@@ -1,0 +1,120 @@
+/* # Front-end Style Guide
+## Layout
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+- Very Dark Grayish Blue: hsl(217, 19%, 35%)
+- Desaturated Dark Blue: hsl(214, 17%, 51%)
+- Grayish Blue: hsl(212, 23%, 69%)
+- Light Grayish Blue: hsl(210, 46%, 95%)
+
+### Body Copy
+- Font size: 13px
+
+### Headings
+- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
+- Weights: 500, 700
+
+## Icons
+We provide SVGs for the social icons. But please feel free to use a font icon library if you like. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 13px;
+}
+.container {
+  /* border: 2px solid black; */
+  width: 700px;
+  height: 250px;
+  display: grid;
+  border-radius: 10px;
+  grid-template-columns: repeat(2, auto);
+  /* padding: 5px; */
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.box2 {
+  /* border: 2px solid brown; */
+  background-color: hsl(210, 46%, 95%);
+  width: 450px;
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.h3 {
+  padding: 20px;
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+}
+.para {
+  padding: 2px 20px;
+  color: hsl(212, 23%, 69%);
+}
+.bio {
+  padding: 20px;
+}
+.bio-img {
+  width: 40px;
+  border-radius: 50px;
+}
+.name {
+  padding: 10px;
+  top: -20px;
+  color: hsl(217, 19%, 35%);
+  position: relative;
+  font-weight: 700;
+}
+.date {
+  position: relative;
+  color: hsl(212, 23%, 69%);
+  left: -110px;
+}
+.btn {
+  float: right;
+  border: none;
+  cursor: pointer;
+}
+.share-img {
+  background-color: cadetblue;
+  border-radius: 50px;
+  margin-top: 10px;
+  width: 25px;
+  padding: 2px;
+  height: 25px;
+}
+.share {
+  background-color: hsl(214, 17%, 51%);
+  width: 200px;
+  padding: 8px;
+  border-radius: 6px;
+  /* display: none; */
+}
+.share span {
+  color: hsl(212, 23%, 69%);
+}
+.share a {
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}
